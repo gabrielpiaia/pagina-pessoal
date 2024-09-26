@@ -16,6 +16,11 @@ body {
     margin: 0 auto;
 }
 
+.logo img {
+    width: 50px; /* Defina o tamanho desejado para o logotipo */
+    height: auto; /* A altura será ajustada automaticamente para manter a proporção */
+}
+
 .flex {
     display: flex;
 }
@@ -177,6 +182,8 @@ section.topo-do-site .flex {
 .topo-do-site .img-topo-site img {
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
+    max-width: 500px; /* Limita a largura máxima a 200px */
+    max-height: 500px; /* Limita a altura máxima a 200px */
 }
 
 
@@ -386,6 +393,8 @@ footer .line-footer p a {
     color: #fff;
 }
 
+
+
 @media screen and (max-width: 1020px) {
 
     /* CLASSES GERAIS */
@@ -447,7 +456,9 @@ footer .line-footer p a {
     }
 
     .img-sobre img{
-        width: 100%;
+        max-width: 10; /* Limita a largura máxima a 200px */
+        max-height: 10; /* Limita a altura máxima a 200px */
+        width: 10%;
     }
 
     /* PORTFÓLIO */
@@ -475,3 +486,14 @@ footer .line-footer p a {
         text-align: center;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
