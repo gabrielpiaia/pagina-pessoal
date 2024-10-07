@@ -1,7 +1,7 @@
 # Página Pessoal de Gabriel Piaia
 
 ## Descrição
-Este repositório contém a implementação da página pessoal de Gabriel Piaia, um desenvolvedor de software com experiência em telecomunicações e desenvolvimento web. A página é projetada para ser responsiva e intuitiva, oferecendo uma visão geral das especialidades, projetos e informações de contato do autor.
+Este repositório contém a implementação da minha página pessoal.
 
 ## Funcionalidades
 - **Menu Responsivo:** Um menu móvel que se abre e fecha de forma fluida, melhorando a experiência do usuário em dispositivos móveis.
