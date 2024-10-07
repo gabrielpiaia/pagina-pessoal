@@ -18,7 +18,3 @@ Este repositório contém a implementação da página pessoal de Gabriel Piaia,
 - **Bootstrap Icons:** Para adicionar ícones ao layout da página.
 - **Google Fonts:** Para utilizar fontes personalizadas, melhorando a tipografia.
 
-## Como Usar
-1. **Clone o Repositório:**
-   ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
