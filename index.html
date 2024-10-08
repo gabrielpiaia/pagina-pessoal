@@ -153,13 +153,18 @@
         <section class="formulario">
             <div class="interface">
                 <h2 class="titulo">FALE <span>COMIGO:</span></h2>
-
-                <form action="">
-                    <input type="text" name="" id="" placeholder="Seu nome completo:" required>
-                    <input type="text" name="" id="" placeholder="Seu e-mail:" required>
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    
+                    <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+                    <label>Email</label>
+                    <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+                    <label>Mensagem</label>
                     <input type="text" name="" id="" placeholder="Seu celular:">
-                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
-                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                    <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                    <div class="btn-enviar">
+                        <input type="hidden" name="accessKey" value="13c9d403-9efa-4748-83e4-407d94ad81ab">
+                        <input type="submit" value="ENVIAR">
+                    </div>
                 </form>
             </div><!--interface-->
         </section><!--formulario-->
