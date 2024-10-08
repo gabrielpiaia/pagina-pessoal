@@ -40,6 +40,17 @@ body {
     transition: .2s;
 }
 
+.btn-contato2 button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #517aeb;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
 h2.titulo {
     color: #fff;
     font-size: 38px;
@@ -420,6 +431,9 @@ footer .line-footer p a {
     .btn-contato {
         display: none;
     }
+    .btn-contato2 {
+        display: none;
+    }
 
     /* TOPO DO SITE */
 
@@ -490,14 +504,4 @@ footer .line-footer p a {
         text-align: center;
     }
 }
-
-
-
-
-
-
-
-
-
-
 
